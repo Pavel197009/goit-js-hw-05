@@ -2,7 +2,7 @@
     Функція має повертати масив імен усіх користувачів (властивість name) із масиву users.
     Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її викликів. */
 
-const getUserNames = users => users.map(user => user.name); 
+const getUserNames = users => users.map(user => `${user.name} ${user.balance}); 
 
 console.log(
   getUserNames([
